@@ -50,9 +50,17 @@ const pinkPrice = .55
 */
 
 // CODE HERE
-
-
-
+let totalFijiAcres = 0
+let totalGalaAcres = 0
+let totalPinkAcres = 0
+let totalAcres = 0
+for(i = 0; i < fujiAcres.length; i++){
+totalFijiAcres = totalFijiAcres + fujiAcres[i]
+totalGalaAcres = totalGalaAcres + galaAcres[i]
+totalPinkAcres = totalPinkAcres + pinkAcres[i]
+}
+totalAcres = totalFijiAcres + totalGalaAcres + totalPinkAcres
+console.log("Total acres picked:" + totalAcres)
 
 
 // PROBLEM 2
@@ -68,8 +76,8 @@ const pinkPrice = .55
 */
 
 // CODE HERE
-
-
+let averageDailyAcres = totalAcres / 7
+console.log("Average daily acres picked:" + averageDailyAcres)
 
 
 
