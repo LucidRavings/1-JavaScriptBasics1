@@ -145,15 +145,17 @@ console.log("Days of work left:" + days)
 */
 
 // CODE HERE
-
-// let fujiTons =
-// let galaTons =
-// let pinkTons =
-
-
-
-
-
+let fujiTons = []
+let galaTons = []
+let pinkTons = []
+for(i = 0; i < fujiAcres.length; i++){
+    fujiTons.push(fujiAcres[i]*6.5)
+    galaTons.push(galaAcres[i]*6.5)
+    pinkTons.push(pinkAcres[i]*6.5)
+}
+console.log("Tons of fuji apples picked:" + fujiTons)
+console.log("Tons of gala apples picked:" + galaTons)
+console.log("Tons of pink apples picked:" + pinkTons)
 
 // PROBLEM 5
 
