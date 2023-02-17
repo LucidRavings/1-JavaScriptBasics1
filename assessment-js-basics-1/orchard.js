@@ -215,14 +215,13 @@ console.log("Pounds of pink apples:" + pinkPounds)
 
 // CODE HERE
 
-// let fujiProfit =
-// let galaProfit =
-// let pinkProfit =
+let fujiProfit = fujiPounds * fujiPrice
+let galaProfit = galaPounds * galaPrice
+let pinkProfit = pinkPounds * pinkPrice
 
-
-
-
-
+console.log("Total fuji profit:$" + fujiProfit)
+console.log("Total gala profit:$" + galaProfit)
+console.log("Total pink profit:$" + pinkProfit)
 
 // PROBLEM 7
 
@@ -235,3 +234,5 @@ console.log("Pounds of pink apples:" + pinkPounds)
 */
 
 // CODE HERE
+let totalProfit = fujiProfit + galaProfit + pinkProfit
+console.log("Total profit:$" + totalProfit)
