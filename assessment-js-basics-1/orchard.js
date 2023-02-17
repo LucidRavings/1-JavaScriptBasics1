@@ -61,7 +61,7 @@ totalPinkAcres = totalPinkAcres + pinkAcres[i]
 }
 totalAcres = totalFujiAcres + totalGalaAcres + totalPinkAcres
 console.log("Total acres picked:" + totalAcres)
-
+//The above code takes each of the arrays and adds them up into seperate total sums of the arrays, and then further creates a new variable for the combined total sum of acres and 'console.logs' it.
 
 // PROBLEM 2
 
@@ -78,7 +78,7 @@ console.log("Total acres picked:" + totalAcres)
 // CODE HERE
 let averageDailyAcres = totalAcres / 7
 console.log("Average daily acres picked:" + averageDailyAcres)
-
+//The above code simply takes our weekly total and devides it by seven and console logs it, in order to give us our daily average rate of acres completed per day of apple picking.
 
 
 // PROBLEM 3
@@ -119,7 +119,7 @@ while(acresLeft > 0){
     days++
 }
 console.log("Days of work left:" + days)
-
+//The above code takes our average acres per day rate of apple picking, and calculates the approximate remaining days of apple picking until harvesting is complete, console logging the results.
 // PROBLEM 4
 
 /*
@@ -156,7 +156,7 @@ for(i = 0; i < fujiAcres.length; i++){
 console.log("Tons of fuji apples picked:" + fujiTons)
 console.log("Tons of gala apples picked:" + galaTons)
 console.log("Tons of pink apples picked:" + pinkTons)
-
+//The above code converts the raw ammount of acres harvested and converts them into an approximate ammount of tons, and console logs the result.
 // PROBLEM 5
 
 /*
@@ -196,7 +196,7 @@ console.log("Pounds of fuji apples:" + fujiPounds)
 console.log("Pounds of gala apples:" + galaPounds)
 console.log("Pounds of pink apples:" + pinkPounds)
 
-
+//the above code takes the approximate tons of apples for each individual apple type and combines the total of tons harvested per day into a single approximate lump sum, and converts them into the more usful measurement of pounds while console logging the results.
 // PROBLEM 6
 
 /*
@@ -222,7 +222,7 @@ let pinkProfit = pinkPounds * pinkPrice
 console.log("Total fuji profit:$" + fujiProfit)
 console.log("Total gala profit:$" + galaProfit)
 console.log("Total pink profit:$" + pinkProfit)
-
+//The code above takes the approximate pounds of apples currently harvested and multiplies them by their estimated profit ratio, creating an estimated total profit for each apple variety and console logging the results. 
 // PROBLEM 7
 
 /*
@@ -236,3 +236,4 @@ console.log("Total pink profit:$" + pinkProfit)
 // CODE HERE
 let totalProfit = fujiProfit + galaProfit + pinkProfit
 console.log("Total profit:$" + totalProfit)
+//The above code takes each estimated total profit from all apple types and combines them into a single estimated total profit, console logging the result.
