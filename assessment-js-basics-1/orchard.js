@@ -50,16 +50,16 @@ const pinkPrice = .55
 */
 
 // CODE HERE
-let totalFijiAcres = 0
+let totalFujiAcres = 0
 let totalGalaAcres = 0
 let totalPinkAcres = 0
 let totalAcres = 0
 for(i = 0; i < fujiAcres.length; i++){
-totalFijiAcres = totalFijiAcres + fujiAcres[i]
+totalFujiAcres = totalFujiAcres + fujiAcres[i]
 totalGalaAcres = totalGalaAcres + galaAcres[i]
 totalPinkAcres = totalPinkAcres + pinkAcres[i]
 }
-totalAcres = totalFijiAcres + totalGalaAcres + totalPinkAcres
+totalAcres = totalFujiAcres + totalGalaAcres + totalPinkAcres
 console.log("Total acres picked:" + totalAcres)
 
 
@@ -175,13 +175,26 @@ console.log("Tons of pink apples picked:" + pinkTons)
 
 // CODE HERE 
 
-// let fujiPounds =
-// let galaPounds =
-// let pinkPounds =
+let fujiPounds = 0
+let galaPounds = 0
+let pinkPounds = 0
 
+let totalFujiTons = 0
+let totalGalaTons = 0
+let totalPinkTons = 0
 
+for(i = 0; i < fujiAcres.length; i++){
+    totalFujiTons += fujiTons[i]
+    totalGalaTons += galaTons[i]
+    totalPinkTons += pinkTons[i]
+}
+fujiPounds = totalFujiTons * 2000
+galaPounds = totalGalaTons * 2000
+pinkPounds = totalPinkTons * 2000
 
-
+console.log("Pounds of fuji apples:" + fujiPounds)
+console.log("Pounds of gala apples:" + galaPounds)
+console.log("Pounds of pink apples:" + pinkPounds)
 
 
 // PROBLEM 6
